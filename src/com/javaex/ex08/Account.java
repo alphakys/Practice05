@@ -22,8 +22,8 @@ public class Account {
     
     
     
-    public void withdraw(int balnace) {
-    	this.balance-=balance;
+    public void withdraw(int balance) {
+    	this.balance -= balance;
     }
     
     
