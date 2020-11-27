@@ -3,9 +3,9 @@ package com.javaex.ex10;
 public class Book {
     
     
-  private  int bookNo;
-  private  String title;
-  private  String author;
+  private static int bookNo;
+  private static String title;
+  private static String author;
   int stateCode;
     
     ////////////////////////////////
@@ -65,7 +65,7 @@ public class Book {
 
 
 	
-	public void rent(Book book) {
+	public static void rent(Book book) {
 		
 		book.stateCode=0;
 		System.out.println(book.title+"이(가) 대여됐습니다.");
